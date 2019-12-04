@@ -47,9 +47,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun reset(view: View){
-        binding.textViewLoan.text = ""
-        binding.textViewInterest.text = ""
-        binding.textViewMonthlyRepayment.text = ""
+        binding.editTextCarPrice.setText("")
+        binding.editTextDownPayment.setText("")
+        binding.editTextInterestRate.setText("")
+        binding.editTextLoanPeriod.setText("")
+        binding.textViewLoan.text = "Loan :"
+        binding.textViewInterest.text = "Interest :"
+        binding.textViewMonthlyRepayment.text = "Monthly Repayment :"
 
     }
 
